@@ -1,0 +1,40 @@
+@charset "utf-8";
+h1{
+    text-align: center;
+    padding: 1em;
+    font-size: 4em;
+    font-family:serif;
+}
+.contents{
+    padding: 0 2em 2em 2em;
+}
+.title:hover{
+    background-color: rgba(0, 165, 191, 0.5);
+}
+.title{
+    font-size: 2em;
+    border-radius: 0.5em;
+    background-color:wheat;
+    border: solid 0.1em gray;
+    padding: 0.5em;
+    display: block;/* アイコンを消す */
+}
+/*カーソルが指マークになる*/
+.title:hover {
+    cursor: pointer;
+}
+.hot{
+    color: red;
+}
+.ice{
+    color: blue;
+}
+.txt{
+	display: none;
+    padding: 2em;
+    font-size: 1.5em;
+}
+.cost{
+    padding-top: 1em;
+    text-align: right;
+}
